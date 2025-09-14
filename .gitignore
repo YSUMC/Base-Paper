@@ -5,3 +5,12 @@ libraries/
 logs/
 plugins/.paper-remapped/
 authlib-injector.log
+banned-ips.json
+banned-players.json
+commands.yml
+help.yml
+ops.yml
+permissions.yml
+usercache.json
+version_history.json
+whitelist.json

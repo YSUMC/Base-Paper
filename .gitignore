@@ -1,0 +1,7 @@
+/.github/
+cache/
+.git/
+libraries/
+logs/
+plugins/.paper-remapped/
+authlib-injector.log

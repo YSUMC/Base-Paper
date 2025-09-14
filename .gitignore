@@ -16,11 +16,12 @@ version_history.json
 whitelist.json
 versions/
 lobby/datapacks/
+lobby/advancements/
+lobby/stats/
 lobby/paper-world.yml
 lobby/session.lock
 lobby/uid.dat
 lobby/data/
 lobby/playerdata/
-lobby/poi/
 lobby/level.dat_old
 .console_history

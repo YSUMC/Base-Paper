@@ -1,0 +1,98 @@
+menu_title: '&#1f297a&lYSU-MCServer&3&l &f| &b&l社团简介'
+open_command: infos
+size: 54
+
+items:
+  'Bilibili':
+    material: texture-89674365aba003d753eaaedd2248c1a386982e464ed80039487b99a0dc0b7b87
+    slot: 29
+    display_name: "&#00a1d6&lBiliBili"
+    lore:
+      - ''
+      - '&b%rgb_gradient_#fFe5f8:#FFE4E1_ 点击我%&r%rgb_gradient_#fFe5f8:#FFE4E1_ 跳转到社团官方% &#00a1d6&lBiliBili&r %rgb_gradient_#fFe5f8:#FFE4E1_ 账户：%'
+      - ''
+      - '   &o%rgb_gradient_#fFe5f8:#FFE4E1_ 成果展示 & 活动记录 & 玩法交流%&r'
+      - ''
+    priority: 1
+    right_click_commands:
+      - '[minimessage] <click:OPEN_URL: "https://space.bilibili.com/353195087">点击前往</click>'
+      - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+      - '[close]'
+    left_click_commands:
+      - '[minimessage] <click:OPEN_URL: "https://space.bilibili.com/353195087">点击前往</click>'
+      - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+      - '[close]'
+  'Wiki':
+    material: ENCHANTED_BOOK
+    slot: 11
+    display_name: "&#1456f0&lWiki"
+    lore:
+      - ''
+      - '&b%rgb_gradient_#fFe5f8:#FFE4E1_ 点击我%&r%rgb_gradient_#fFe5f8:#FFE4E1_ 跳转到社团% &#1456f0&lWiki&r%rgb_gradient_#fFe5f8:#FFE4E1_ ：%'
+      - ''
+      - '   &o%rgb_gradient_#fFe5f8:#FFE4E1_ 工作信息 & 社团内容 & 参考资料%&r'
+      - ''
+    right_click_commands:
+      - '[json] {"text": "点我前往","clickEvent": {"action": "open_url","value": "https://wiki.ysumc.net//index.php?title=%E9%A6%96%E9%A1%B5"},"color": "blue"}'
+      - "[sound] ENTITY_PLAYER_ATTACK_CRIT"
+      - '[close]'
+    left_click_commands:
+      - '[json] {"text": "点我前往","clickEvent": {"action": "open_url","value": "https://wiki.ysumc.net//index.php?title=%E9%A6%96%E9%A1%B5"},"color": "blue"}'
+      - "[sound] ENTITY_PLAYER_ATTACK_CRIT"
+      - '[close]'
+  "Website":
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2ZmMTY3OWQxMGEwN2M3NDQyNDI4YjZlZTE4ZjlmNjgzZWYxZjM2YjQ2ZTRhMjI5NWMwNzBhMDUyNzBiNjkzMSJ9fX0=
+    slot: 22
+    display_name: "&#1f296a&l官方网站"
+    lore:
+      - ''
+      - '&b%rgb_gradient_#fFe5f8:#FFE4E1_ 点击我 跳转到社团官方网站：%'
+      - ''
+      - '   &o%rgb_gradient_#fFe5f8:#FFE4E1_ 项目展示 & 社团宣传 & 记录画廊%&r'
+      - ''
+    right_click_commands:
+      - '[json] {"text":"点我前往","bold":true,"color":"dark_blue","clickEvent":{"action":"open_url","value":"https://ysumc.club/"}}'
+      - "[sound] ENTITY_PLAYER_ATTACK_CRIT"
+      - '[close]'
+    left_click_commands:
+      - '[json] {"text":"点我前往","bold":true,"color":"dark_blue","clickEvent":{"action":"open_url","value":"https://ysumc.club/"}}'
+      - "[sound] ENTITY_PLAYER_ATTACK_CRIT"
+      - '[close]'
+  "Tiktok":
+    material: COBBLESTONE
+    slot: 33
+    display_name: "&2&l官方抖音"
+    lore:
+      - ''
+      - '&b%rgb_gradient_#fFe5f8:#FFE4E1_ 点击我 跳转到社团官方抖音：%'
+      - ''
+      - ''
+      - ''
+  "Map":
+    material: MAP
+    slot: 15
+    display_name: "&9&l网页地图"
+    lore:
+      - ''
+      - '&b%rgb_gradient_#fFe5f8:#FFE4E1_ 点击我 跳转到浏览器版游戏地图。%'
+      - ''
+    right_click_commands:
+      - '[json] {"text":"点我前往","bold":true,"color":"dark_blue","clickEvent":{"action":"open_url","value":"https://map.ysumc.club/"}}'
+      - "[sound] ENTITY_PLAYER_ATTACK_CRIT"
+      - '[close]'
+    left_click_commands:
+      - '[json] {"text":"点我前往","bold":true,"color":"dark_blue","clickEvent":{"action":"open_url","value":"https://map.ysumc.club/"}}'
+      - "[sound] ENTITY_PLAYER_ATTACK_CRIT"
+      - '[close]'
+  'Back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0OTFkYmZhMzcyZGY3OTk5MjYyY2JmYTg5MTY1MThhYjNlMzU5NWJkNmJkZGY5ZjdkMTk1ZGYzZjc4ODViZCJ9fX0=
+    slot: 45
+    display_name: '&#ff3300返回'
+    lore:
+    - '&#B0C4DE点击以返回到 &#FFFACD主菜单&#B0C4DE.'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    - '[openguimenu] mainmenu'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    - '[openguimenu] mainmenu'

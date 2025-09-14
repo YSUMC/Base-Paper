@@ -1,0 +1,16 @@
+info:
+  namespace: "ysumc"
+items:
+  menu:
+    enabled: true
+    display_name: <b><color:#d87f81>小鸟AI</color></b>
+    lore:
+      - '<color:#fFe5f8>左键或者右键我进入菜单</color>'
+      - '<color:#fFe5f8>我拥有许多功能快打开查看吧</color>'
+      - ''
+      - '<rainbow>有一股神秘力量入侵</rainbow>'
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+        - spcicon/menu

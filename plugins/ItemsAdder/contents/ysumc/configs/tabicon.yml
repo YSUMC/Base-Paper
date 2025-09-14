@@ -1,0 +1,15 @@
+info:
+  namespace: "ysumc"
+font_images:
+  daily:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "tabicon/daily"
+    scale_ratio: 9
+    y_position: 8
+  netease:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "tabicon/netease"
+    scale_ratio: 9
+    y_position: 8

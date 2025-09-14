@@ -1,0 +1,21 @@
+info:
+  namespace: "ysumc"
+font_images:
+  telecom-corp:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "serviceprovider/dianxin"
+    scale_ratio: 9
+    y_position: 8
+  united-network-communication:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "serviceprovider/liantong"
+    scale_ratio: 9
+    y_position: 8
+  mobile-communications:
+    show_in_gui: true
+    suggest_in_command: false
+    path: "serviceprovider/yidong"
+    scale_ratio: 9
+    y_position: 8

@@ -1,0 +1,81 @@
+info:
+  namespace: "ysumc"
+font_images:
+  sglt:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/sglt.png"
+    scale_ratio: 9
+    y_position: 8
+  redece:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/redece.png"
+    scale_ratio: 9
+    y_position: 8
+  mnn:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/mnn.png"
+    scale_ratio: 9
+    y_position: 8
+  ysuer:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/ysuer.png"
+    scale_ratio: 9
+    y_position: 8
+  shoms:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/shoms.png"
+    scale_ratio: 9
+    y_position: 8
+  spring:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/spring.png"
+    scale_ratio: 9
+    y_position: 8
+  azusasang:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/azusasang.png"
+    scale_ratio: 9
+    y_position: 8
+  cresrv:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/cresrv.png"
+    scale_ratio: 9
+    y_position: 8
+  spring:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/spring.png"
+    scale_ratio: 9
+    y_position: 8
+  superysuer:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/superysuer.png"
+    scale_ratio: 9
+    y_position: 8
+  tiantian:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/superysuer.png"
+    scale_ratio: 9
+    y_position: 8
+  yyqt:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/yyqt.png"
+    scale_ratio: 9
+    y_position: 8
+  dragonkiller:
+    show_in_gui: false
+    suggest_in_command: false
+    path: "ranks/dragonkiller.png"
+    scale_ratio: 9
+    y_position: 8

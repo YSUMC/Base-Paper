@@ -1,0 +1,105 @@
+menu_title: '&#1f297a&lYSU-MCServer&3&l &f| &#d87f81&l特殊功能'
+open_command: 
+size: 45
+items:
+  'socrboard':
+    material: oak_sign
+    data: 
+    amount: 1
+    slot: 10
+    display_name: '&9&l计分板开关'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8点击我打开或者关闭计分板'
+    - '    &a&l鼠标右键&#fFe5f8关闭计分板'
+    - '    &a&l鼠标左键&#fFe5f8打开计分板'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击更改计分板%'
+    priority: 1
+    left_click_commands:
+    - '[console] lp user %player_name% permission set ysumc.sb true'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    right_click_commands:
+    - '[console] lp user %player_name% permission set ysumc.sb false'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'chatfilter':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFiN2EwYzIxMGU2Y2RmNWEzNWZkODE5N2U2ZTI0YTAzODMxNWJiZTNiZGNkMWJjYzM2MzBiZjI2ZjU5ZWM1YyJ9fX0=
+    data: 
+    amount: 1
+    slot: 12
+    display_name: '&9&l聊天屏蔽词开关'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8本服务器聊天自带脏话屏蔽'
+    - '    &#fFe5f8点击我关闭屏蔽'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击更改计分板%'
+    priority: 1
+    right_click_commands:
+    - '[player] trchat chatFilter'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[player] trchat chatFilter'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'warp':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzY3ZWFmMTgyY2VmMDFhN2VjYmEyMjZkNGJjZTlhY2U3N2E1MjUzYWM5NGFhMTY2YTliMzFjZTdmYmNhODI0NSJ9fX0=
+    data: 
+    amount: 1
+    slot: 14
+    display_name: '&9&l地标传送'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8前往各个聚落（四时燕序使用）'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击查看%'
+    priority: 1
+    right_click_commands:
+    - '[player] cmi warp'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[player] cmi warp'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'bilibili':
+    material: texture-2b5489e3a595feffc6736ed73bb32acb941c2ca9cfea1fb067000279d08734c6
+    data: 
+    amount: 1
+    slot: 16
+    display_name: '&#ff5d91&lbilibili订阅验证'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8你好，你是否给社团的视频三联了'
+    - '    &#fFe5f8看样子好像并没有'
+    - '    &#fFe5f8快来关注且三连我们在&#ff5d91&lb站&#fFe5f8上发的视频'
+    - '    &#fFe5f8每三连一条视频你都将获得不同的奖励'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击更改计分板%'
+    priority: 1
+    right_click_commands:
+    - '[openguimenu] bilibili'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[openguimenu] bilibili'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'home':
+    material: dasehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzViNjI0YTQzZTM1NDQxZWU2Yjk5NzM2OTdhMjY2Zjk1Yzk2NzczMmM1ZGI3YzBmZDljNDlmMWM4NmZhMzIzYiJ9fX0=
+    data: 
+    amount: 1
+    slot: 20
+    display_name: '&9&lhome点设置'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8通过我进行设置home点'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击查看%'
+    priority: 1
+    right_click_commands:
+    - '[player] homes'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[player] homes'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'

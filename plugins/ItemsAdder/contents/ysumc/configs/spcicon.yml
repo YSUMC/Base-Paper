@@ -1,0 +1,8 @@
+info:
+  namespace: "ysumc"
+font_images:
+  ysudollar:
+    path: "spcicon/ysudollar.png"
+    suggest_in_command: true
+    scale_ratio: 9
+    y_position: 8

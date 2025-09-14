@@ -1,0 +1,101 @@
+info:
+  namespace: betterranks
+font_images:
+  admin:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/admin.png"
+    scale_ratio: 9
+    y_position: 8
+  mod:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/mod.png"
+    scale_ratio: 9
+    y_position: 8
+  helper:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/helper.png"
+    scale_ratio: 9
+    y_position: 8
+  player:
+    permission: "betterranks.player"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/player.png"
+    scale_ratio: 9
+    y_position: 8
+  builder:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/builder.png"
+    scale_ratio: 9
+    y_position: 8
+  youtube:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/youtube.png"
+    scale_ratio: 9
+    y_position: 8
+  patreon:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/patreon.png"
+    scale_ratio: 9
+    y_position: 8
+  patreon2:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/patreon2.png"
+    scale_ratio: 9
+    y_position: 8
+  java:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/java.png"
+    scale_ratio: 9
+    y_position: 8
+  skript:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/skript.png"
+    scale_ratio: 9
+    y_position: 8
+  developer:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/developer.png"
+    scale_ratio: 9
+    y_position: 8
+  dev:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/dev.png"
+    scale_ratio: 9
+    y_position: 8
+  vip:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/vip.png"
+    scale_ratio: 9
+    y_position: 8
+  vipplus:
+    permission: "betterranks.admin"
+    show_in_gui: true
+    suggest_in_command: false
+    path: "font/rank/vipplus.png"
+    scale_ratio: 9
+    y_position: 8

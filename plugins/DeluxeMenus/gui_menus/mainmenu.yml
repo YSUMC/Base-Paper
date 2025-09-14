@@ -1,0 +1,296 @@
+menu_title: '&#1f297a&lYSU-MCServer&3&l &f| &#d87f81&l小鸟AI'
+open_command: menu
+size: 54
+items:
+  'portals':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWZmZTJiNjgwMDhhOGEzNjA2MjkyNzhiMzEzODE0MzZmYTMzZTQ1ZmFkMTkyY2Q3MDY1YzUyZmE4YzNmNGQ1NCJ9fX0=
+    data: 
+    amount: 1
+    slot: 19
+    display_name: '&5&l传送门'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '   &#fFe5f8欢迎来到&#1F299a&l燕山大学&#fFe5f8Minecraft学生同好者协会'
+    - '   &#fFe5f8当你第一次踏上这片大地，想要前往不同的服务器游玩'
+    - ''
+    - '   &#fFe5f8或者你是想要通过&#ed1438&lM&#00bdff&lU&#00e060&lA&l&f&l高校联盟&#fFe5f8的联合认证前往其他高校的服务器'
+    - '   &#fFe5f8点击我选择你要前往的地方'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击前往传送%'
+    priority: 1
+    right_click_commands:
+    - '[openguimenu] portals'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[openguimenu] portals'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'MUA':
+    material: texture-4d056c4235fc91c03efb2eb5d7c7ebed84c467dad531a1bde9283a70a9a1d30d
+    # material: texture-34d1c07a93e4d11e8e722bdc473b764a8f940a9bff5e221025361404e27d62fc
+    data: 
+    amount: 1
+    slot: 23
+    display_name: '&#fFe5f8了解&#ed1438&lM&#00bdff&lU&#00e060&lA&l&f&l高校联盟'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '   &#fFe5f8由此了解&#ed1438&lM&#00bdff&lU&#00e060&lA&l&f&l高校联盟&#fFe5f8&l相关信息'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击了解%'
+    priority: 1
+    right_click_commands:
+    - '[openguimenu] muainfo'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[openguimenu] muainfo'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'clubinfo':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGFmNTBmMTcyYTUxMGZhNjBiMmFmMGNiYjg0ZjM3MTUzNmM5NjVlYTU1MDg4MTI1M2Y3ZWNkMjY0MDc5NjllYiJ9fX0=
+    data: 
+    amount: 1
+    slot: 21
+    display_name: '&c&l了解社团'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '   &#fFe5f8你好，我们是&#1f297a&l燕山大学&#fFe5f8Minecraft学生同好者协会'
+    - ''
+    - '   &#fFe5f8你是是否想要了解&#ffddcd&l我们&#fFe5f8，或者想要加入&#ffddcd&l我们'
+    - '   &#fFe5f8点击我了解社团基本情况，或者查询部分&#ffddcd&l功能'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击了解我们%'
+    priority: 1
+    right_click_commands:
+    - '[openguimenu] infos'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[openguimenu] infos'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'personalpart':
+    material: head-%player_name%
+    data: 
+    amount: 1
+    slot: 13
+    display_name: '&e&l个人主页'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '  &#fFe5f8游园燕子:&#ffddcd&l%player_name%'
+    - '  &#fFe5f8我是你的个人助手:&#d87f81&l小鸟AI'
+    - ''
+    - '  &#fFe5f8你的称号:&f%playerTitle_use%'
+    - '  &#fFe5f8你目前所在:%javascript_servername%'
+    - '  &#fFe5f8你目前拥有:&#59b292&l%xconomy_balance_value%&f%img_ysudollar%'
+    - ''
+    - '  &#fFe5f8你的&#ffddcd&lping:%player_ping%ms'
+    - '  &#fFe5f8你的&#ffddcd&ltps:%server_tps%'
+    - ''
+    - '&#fFe5f8本助手由&#1F299a&l燕山大学MC社&#fFe5f8研发的'
+    priority: 1
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  # 'title':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2NkYmRiNzkwZTdiZTgwNTU5NDZhMzI0NmE5NmQ4NGUzM2FjYTgwMTY1OGVlZTc5ZGQ0OWViZDg4M2U3YmU2ZSJ9fX0=
+  #   data: 
+  #   amount: 1
+  #   slot: 30
+  #   display_name: '&b&l个人称号'
+  #   lore:
+  #   - ''
+  #   - '&#e6bb8a&l♝ 相关功能'
+  #   - '    &#fFe5f8这里是本服的称号仓库'
+  #   - '    &#fFe5f8你可以通过参与各种&#ffddcd&l活动&#fFe5f8来获取称号'
+  #   - ''
+  #   - '    &#fFe5f8或者你也可以加入到&3&l南山队&#fFe5f8，获得你的自定义称号'
+  #   - ''
+  #   - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击打开仓库%'
+  #   priority: 1
+  #   right_click_commands:
+  #   - '[player] plt open'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  #   left_click_commands:
+  #   - '[player] plt open'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  # 'calender':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjBmNDJlOWU1Y2UxNjFkMWQ3YTY4NTc3NTllYTFjZjI4MDZlOTFkM2JiOWY0NGNhZTIyNjhjMzhlOWM4N2FkZSJ9fX0=
+  #   data: 
+  #   amount: 1
+  #   slot: 28
+  #   display_name: '&6&l每日签到'
+  #   lore:
+  #   - ''
+  #   - '&#e6bb8a&l♝ 相关功能'
+  #   - '    &#fFe5f8通过每日签到获取&#59b292&l燕明刀'
+  #   - '    &#fFe5f8你今天的签到情况:&#ffddcd&l%litesignin_signed-in%'
+  #   - ''
+  #   - '    &#fFe5f8你本月你已经签到:&#ffddcd&l%litesignin_continuous_of_month%天'
+  #   - '    &#fFe5f8上一次你的签到是:&#ffddcd&l%litesignin_last_year%年%litesignin_last_month%月%litesignin_last_day%日'
+  #   - ''
+  #   - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击开始签到%'
+  #   priority: 1
+  #   right_click_commands:
+  #   - '[player] signin gui'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  #   left_click_commands:
+  #   - '[player] signin gui'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'tools':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMxOGVlNTI3OGUwOGQ5ZTZmZTkxNjNlYzQyNjdjNzkxZjUyNDhhMzU3ZjVmNzgwZDYzNDY4MTJjNzA0ZWI4ZiJ9fX0=
+    data: 
+    amount: 1
+    slot: 25
+    display_name: '&9&l其他功能'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8通过每日签到获取&#59b292&l燕明刀'
+    - '    &#fFe5f8你今天的签到情况:&#ffddcd&l%litesignin_signed-in%'
+    - ''
+    - '    &#fFe5f8你本月你已经签到:&#ffddcd&l%litesignin_continuous_of_month%天'
+    - '    &#fFe5f8上一次你的签到是:&#ffddcd&l%litesignin_last_year%年%litesignin_last_month%月%litesignin_last_day%日'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击开始签到%'
+    priority: 1
+    right_click_commands:
+    - '[openguimenu] tools'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    left_click_commands:
+    - '[openguimenu] tools'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  # '每日任务':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDNkNWNmYjg1MTdiY2M3MDlmMDhhNjMxMWIyNDEzYmEyYTEwOWIzYWJjOTcwMjcwMjYwZmQwOGE4MjgzMzhjNyJ9fX0=
+  #   data: 
+  #   amount: 1
+  #   slot: 32
+  #   display_name: '&d&l每日任务'
+  #   lore:
+  #   - ''
+  #   - '&#e6bb8a&l♝ 相关功能'
+  #   - '    &#fFe5f8通过每日签到获取&#59b292&l燕明刀'
+  #   - '    &#fFe5f8你今天的签到情况:&#ffddcd&l%litesignin_signed-in%'
+  #   - ''
+  #   - '    &#fFe5f8你本月你已经签到:&#ffddcd&l%litesignin_continuous_of_month%天'
+  #   - '    &#fFe5f8上一次你的签到是:&#ffddcd&l%litesignin_last_year%年%litesignin_last_month%月%litesignin_last_day%日'
+  #   - ''
+  #   - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击开始签到%'
+  #   priority: 1
+  #   right_click_commands:
+  #   - '[player] dailyquests'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  #   left_click_commands:
+  #   - '[player] dailyquests'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  # '点歌功能':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmU3OTJkMzhlNDE2OGQyNmRlNzc4Mzk4NGNhZmZmYzYwYjQ4ODM4ZDgxZjIyOTYwNzZmZTE0ZGVkZDYifX19
+  #   data: 
+  #   amount: 1
+  #   slot: 34
+  #   display_name: '&a&l点歌功能'
+  #   lore:
+  #   - ''
+  #   - '&#e6bb8a&l♝ 相关功能'
+  #   - '    &#fFe5f8通过每日签到获取&#59b292&l燕明刀'
+  #   - '    &#fFe5f8你今天的签到情况:&#ffddcd&l%litesignin_signed-in%'
+  #   - ''
+  #   - '    &#fFe5f8你本月你已经签到:&#ffddcd&l%litesignin_continuous_of_month%天'
+  #   - '    &#fFe5f8上一次你的签到是:&#ffddcd&l%litesignin_last_year%年%litesignin_last_month%月%litesignin_last_day%日'
+  #   - ''
+  #   - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击开始签到%'
+  #   priority: 1
+  #   right_click_commands:
+  #   - '[openguimenu] music'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  #   left_click_commands:
+  #   - '[openguimenu] music'
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'funnyrun':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBhNDBhYTUzYWZlM2FjZTQyODJiNzBmOTI1ZDgwYzg5MDM1NmI1ZDJhNjM5MGI2NGMwZmU0YzUxMzk1MmFkYiJ9fX0=
+    slot: 37
+    display_name: '%ac_gradient_FF4500,FFFF00_0.1_&l鸟大跑跑乐%'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - ''
+    - '     &#fFe5f8欢迎来到%ac_gradient_FF4500,FFFF00_0.1_&l鸟大跑跑乐%'
+    - '     &#fFe5f8并且参加本次新春联谊会'  
+    - '     &#fFe5f8目前跑跑乐已经开启正式公测'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] funnyrun'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] funnyrun'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  '100min':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjVhOTkxMDQ1MDE5ZjhiODRhMDE3YWFlYzU2NTkyMzI1ZTJmNmQwZTgwMmY2YTg1MzBjNzFlZDg1MmI4MWJhOCJ9fX0=
+    slot: 39
+    display_name: '%rgb_gradient_#e6b173:#e6dc8a_  100分钟建筑赛%'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - '     %rgb_gradient_#e67c00:#e6cf00_  四时燕序，屏前观鱼龙曼衍% '    
+    - '     %rgb_gradient_#e67c00:#e6cf00_  直上云霄，手里创日月新天% '    
+    - '     %rgb_gradient_#fFe5f8:#FFE4E1_  燕山大学100分钟建筑联赛% '
+    - '     %rgb_gradient_#fFe5f8:#FFE4E1_  燕山大学MC社陪你共度春节% ' 
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] 100min'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] 100min'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'bingo':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWZjMWM4ZThmYWRlMTg1MzdlZDkxYmZkMWJkOTIyYTU1ZTE3Y2RjM2U1MTUwNzgxYTc3NzY5NGY1ZjA5NzM2MyJ9fX0=
+    slot: 41
+    display_name: '&4&lB&6&lI&a&lN&9&lG&d&lO'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - '     %rgb_gradient_#e67c00:#e6cf00_  四时燕序，屏前观鱼龙曼衍% '    
+    - '     %rgb_gradient_#e67c00:#e6cf00_  直上云霄，手里创日月新天% '       
+    - '     %rgb_gradient_#fFe5f8:#FFE4E1_  &4&lB&6&lI&a&lN&9&lG&d&lO游戏要开始啦% '
+    - '     %rgb_gradient_#fFe5f8:#FFE4E1_  中南大学Minecraft服务器陪你共度春节% ' 
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] minigame'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] minigame'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  'killer':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM0MGI0YzE2NTliMmE0ZGYwMmUyZTIzZmM1MTlhNzljYjc2YTA1ZmQ4N2U1ZGYyNDY4YjZhODE5ZTZiZjdiNiJ9fX0=
+    slot: 43
+    display_name: '&8&l谁是杀手'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - '     %rgb_gradient_#e67c00:#e6cf00_  四时燕序，屏前观鱼龙曼衍% '    
+    - '     %rgb_gradient_#e67c00:#e6cf00_  直上云霄，手里创日月新天% '       
+    - '     %rgb_gradient_#fFe5f8:#FFE4E1_  &4&lB&6&lI&a&lN&9&lG&d&lO游戏要开始啦% '
+    - '     %rgb_gradient_#fFe5f8:#FFE4E1_  同济大学Minecraft紫晶社陪你共度春节% ' 
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] killer'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] killer'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'

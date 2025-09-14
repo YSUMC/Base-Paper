@@ -1,0 +1,81 @@
+menu_title: "&#1f297a&lYSU-MCServer&3&l &f| &b&l音乐功能"
+open_command: 
+size: 27
+items:
+  'music-start':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmE4ZjZiMTMxZWY4NDdkOTE2MGU1MTZhNmY0NGJmYTkzMjU1NGQ0MGMxOGE4MTc5NmQ3NjZhNTQ4N2I5ZjcxMCJ9fX0=
+    data: 
+    amount: 1
+    slot: 10
+    display_name: '&a&l临时关闭音乐'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8关闭本首歌曲（下一首会继续播放）'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击关闭%'
+    priority: 1
+    left_click_commands:
+    - '[player] music stop'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    right_click_commands:
+    - '[player] music stop'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'music-stop':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2VjZDA0MWY2MjhjMDA1YTY5MGZjNmI4MjM3ZTczMTFiYjdjM2IzYWFjMTA1MzlmZWZlMzk2YTRjN2M3ODNlNyJ9fX0=
+    data: 
+    amount: 1
+    slot: 12
+    display_name: '&a&l永久关闭音乐'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8永久关闭服务器音乐播放，可以通过点歌再次听歌'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_关闭音乐%'
+    priority: 1
+    left_click_commands:
+    - '[player] music nomusic'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    right_click_commands:
+    - '[player] music nomusic'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'music-VOTE':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGY1NjU4ZmM2N2FhNTNjNmIxMzMwZDI3OTBiMDgzMDE2Y2NhNGU3NzkxYTI0Y2ExNzg3ZmQ3MzA3YjUyZGRhMyJ9fX0=
+    data: 
+    amount: 1
+    slot: 14
+    display_name: '&a&l投票切歌'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8发起切歌投票'
+    - '    &#fFe5f8当服务器内同意切歌人数大于30%可以切歌'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击发起切歌%'
+    priority: 1
+    left_click_commands:
+    - '[player] music vote'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    right_click_commands:
+    - '[player] music vote'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  'music-hud':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg5ZmUxZmY0OTE1MzQyZDNiYzgzNmU0NmM3ZjYyNDRjNjFjMjk0NzI0NmNiMzA1ZDU1NDU2NTU0NTM3MTkyNiJ9fX0=
+    data: 
+    amount: 1
+    slot: 16
+    display_name: '&a&l信息显示'
+    lore:
+    - ''
+    - '&#e6bb8a&l♝ 相关功能'
+    - '    &#fFe5f8点击我开启或者关闭客户端左上角音乐信息显示'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_点击切歌%'
+    priority: 1
+    left_click_commands:
+    - '[player] music hud enable'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    right_click_commands:
+    - '[player] music hud enable'
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'

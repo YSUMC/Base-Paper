@@ -1,0 +1,223 @@
+menu_title: '&#1f297a&lYSU-MCServer&3&l &8| &5&l传送门'
+open_command: portals
+size: 54
+items:
+  'redstone':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMyMGUyNDM5NWNhNWNkODc0ODcwZGNiZTA5YzM3ZGI5ZGFhNDZiYTY2ZTAyOTYxNTQwYzU0NTkyYmZlM2RhYiJ9fX0=
+    slot: 10
+    display_name: '%rgb_gradient_#e60000:#995300_红石动力%'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - '    %rgb_gradient_#fFe5f8:#FFE4E1_  这是%&#1f297a&lYSU-MC%rgb_gradient_#e60000:#995300_红石动力%%rgb_gradient_#fFe5f8:#FFE4E1_服务器，在这里%' 
+    - '    %rgb_gradient_#fFe5f8:#FFE4E1_  进行生电设计与生建建造%'
+    - ''
+    - '    %rgb_gradient_#fFe5f8:#FFE4E1_  服务器是由Fabric服务端驱动，mcdr辅助%'
+    - '    %rgb_gradient_#fFe5f8:#FFE4E1_  我们配备%&#8abfe6镜像服&#fFe5f8，&#e6dc8a设计服&#fFe5f8，&#e69a8a备份服'
+    - ''
+    - '    %rgb_gradient_#fFe5f8:#FFE4E1_  进来与小伙伴们一起玩耍吧%'
+    - '    %rgb_gradient_#fFe5f8:#FFE4E1_  最新项目：火锅谷复原%'
+    - '    &#ff3300&l⚠ 请注意！本服务器目前只支持1.20.1版本进入'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'#fFe5f8#a1e1e6
+    left_click_commands:
+    - '[close]'
+    - '[connect] redstone'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] redstone'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  
+  'ysucloud':
+    material: texture-8dbf71a1af3dc0626d7fa0481e73adbcc89e6df2f826891d039453513afcbb87
+    slot: 12
+    display_name: '&#1f297a&l像素燕大&#B0C4DE(THE FIRST START)'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - ''
+    - '     &#fFe5f8  亲爱的同学下一站是 —— % &#1f297a&l《像素燕大》'    
+    - ''
+    - '     &#fFe5f8  这里是燕山大学全校区展览地图，欢迎你来到%&#1f297a&l 燕山大学'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] cloudysu'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] cloudysu'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'ysu-ifs':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjliMjg4OTAyMDU4MzU2NWY4OGQ1MDUzNzg3MGM1OWFhZDgwMjU5NGZhYmQ4MzdlMWQxNGY1YTA2YWUzNDUwOSJ9fX0=
+    slot: 14
+    display_name: '%ac_gradient_00ffff,d07d12_0.1_&l四时燕序%'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - ''
+    - '     &#fFe5f8  这里是由&#1f297a&lYSUMC&#fFe5f8重磅推出的周目服:%ac_gradient_00ffff,d07d12_0.1_&l四时燕序%'    
+    - '     &#fFe5f8  在这可以感受属于MC世界的%ac_gradient_005aff,ff0000_0.5_春夏秋冬%'
+    - ''
+    - '     &#fFe5f8  在MC的世界中不断发展，建立起你的聚落'
+    - '     &#fFe5f8  和其他聚落交流连接，互通有无'
+    - ''
+    - '     &#fFe5f8  第一期活动：%ac_gradient_f18200,dddddd_0.5_&l[千村万落]% &#fFe5f8正在火热进行中'
+    - '     &#fFe5f8  快携带着你的好伙伴加入进来吧'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] ysu-ifs'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] ysu-ifs'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  'funnyrun':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjliMjg4OTAyMDU4MzU2NWY4OGQ1MDUzNzg3MGM1OWFhZDgwMjU5NGZhYmQ4MzdlMWQxNGY1YTA2YWUzNDUwOSJ9fX0=
+    slot: 16
+    display_name: '%ac_gradient_FF4500,FFFF00_0.5_&l鸟大跑跑乐%'
+    lore:
+    - ''
+    - '&#a1e1e6&l  ♝ 相关信息:'
+    - ''
+    - '     &#fFe5f8欢迎来到%ac_gradient_FF4500,FFFF00_0.5_&l鸟大跑跑乐%'    
+    - '     &#fFe5f8欢迎来到目前已经开启测试'
+    - ''
+    - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+    - ''
+    left_click_commands:
+    - '[close]'
+    - '[connect] funnyrun'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+    right_click_commands:
+    - '[close]'
+    - '[connect] funnyrun'
+    - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+# 'Mario':
+#     material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzk5NTg5YjYwNmE0M2M1YzgyMDQ3NWVkNmEyNzk3ZTM1YWU2MWFhYWI4ZTczY2E1MWMwOWRlNzA4ZDUxNjliYyJ9fX0=
+#     slot: 16
+#     display_name: '&d&lMario大乱斗 &#B0C4DE(MC超级大富翁)'
+#     lore:
+#     - ''
+#     - '&#a1e1e6&l  ♝ 相关信息:'
+#     - '     %rgb_gradient_#fFe5f8:#FFE4E1_  这是小游戏%&d&lMario大乱斗 '
+#     - '     %rgb_gradient_#fFe5f8:#FFE4E1_  这个小游戏需要至少两人最多四人进行游玩，%'
+#     - '     %rgb_gradient_#fFe5f8:#FFE4E1_  它的玩法类似于大富翁%'
+#     - '     %rgb_gradient_#fFe5f8:#FFE4E1_  但是它是通过完成各种小游戏获得金币，最后谁获得的星星最多%'
+#     - '     %rgb_gradient_#fFe5f8:#FFE4E1_  谁就可以获得最终的胜利%'     
+#     - ''
+#     - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+#     - ''
+#     right_click_commands:
+#     - '[close]'
+#     - '[player] stp YSU_Mario'
+#     - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+#     left_click_commands:
+#     - '[close]'
+#     - '[player] stp YSU_Mario'
+#     - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  
+  # '1111':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZiYTVkYmVlMmE3MzJkMDUzNjE4YTM5OThmOTg2YzhmNTZkYjQwZmUzMTRhMGNlMDI4NTAxZjVlNTRiNzNkMyJ9fX0=
+  #   slot: 31
+  #   display_name: '%rgb_gradient_#e6b173:#e6dc8a_  100分钟建筑赛%'
+  #   lore:
+  #   - ''
+  #   - '&#a1e1e6&l  ♝ 相关信息:'
+  #   - '     %rgb_gradient_#e67c00:#e6cf00_  中秋月，月到中秋偏皎洁% '    
+  #   - '     %rgb_gradient_#fFe5f8:#FFE4E1_  飞花令与100分钟建筑赛% '
+  #   - '     %rgb_gradient_#fFe5f8:#FFE4E1_  燕山大学MC社陪你共度中秋% ' 
+  #   - ''
+  #   - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+  #   - ''
+  #   right_click_commands:
+  #   - '[close]'
+  #   - '[player] stp YSU_100MIN'
+  #   - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  #   left_click_commands:
+  #   - '[close]'
+  #   - '[player] stp YSU_100MIN'
+  #   - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+  # 'battle ysu':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBhNDBhYTUzYWZlM2FjZTQyODJiNzBmOTI1ZDgwYzg5MDM1NmI1ZDJhNjM5MGI2NGMwZmU0YzUxMzk1MmFkYiJ9fX0=
+  #   slot: 22
+  #   display_name: '&#5c5e99&l今日&#e68aa0&l小游戏&#B0C4DE(Just For Fun)'
+  #   lore:
+  #   - ''
+  #   - '&#a1e1e6&l  ♝ 相关信息:'
+  #   - '     %rgb_gradient_#fFe5f8:#FFE4E1_  每周小游戏！% '    
+  #   - '     %rgb_gradient_#fFe5f8:#FFE4E1_  今天的小游戏是谁是杀手，一个非对称对抗类小游戏，你要躲过杀手的追杀，合成手枪杀死的杀手% '
+  #   - '     %rgb_gradient_#fFe5f8:#FFE4E1_  周末愉快！% ' 
+  #   - ''
+  #   - '%rgb_#4d4545% » %rgb_gradient_#fFe5f8:#a1e1e6_右键以传送%'
+  #   - ''
+  #   right_click_commands:
+  #   - '[close]'
+  #   - '[player] stp YSU_SHOOT'
+  #   - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+  #   left_click_commands:
+  #   - '[close]'
+  #   - '[player] stp YSU_SHOOT'
+  #   - '[sound] ENTITY_EXPERIENCE_ORB_PICKUP'
+
+
+  # 'plot':
+  #   material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRhMzYzYWZkYTE5MjJmYWM4MTA3YjZiMGE1MWViNmY2YzU0MTU3NWUyZGE1NjIwOGY2NWFlY2RlZDI2MzE1YSJ9fX0=
+  #   slot: 31
+  #   display_name: '&#5F9EA0&l地皮'
+  #   lore:
+  #   - ''
+  #   - '&#5F9EA0&l⛃ 信息'
+  #   - '     &#FFE4E1地皮是您的家园，您可以自由的领取自己的地皮并建造！'
+  #   - '     &#FFE4E1前往地皮世界后，使用指令 &d/plot auto &#FFE4E1即可快速'
+  #   - '     &#FFE4E1领取一个地皮!'
+  #   - '     &#FFE4E1服务器的世界不定期刷新，请不要在各个世界放置您的'
+  #   - '     &#FFE4E1贵重物品，如实在需要，请使用保护菜单！'
+  #   - ''
+  #   - '&#00fb9a&l⚠ 死亡完全不掉落!'
+  #   - ''
+  #   - '&8 » &#FFFACD右键以查看'
+  #   right_click_commands:
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  #   - '[player] function 114514:play'
+  #   left_click_commands:
+  #   - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+  #   - '[player] function 114514:pause'
+  'back':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWQ5MjhjY2I3Y2Y3NTg0MjVlYTM4YTVkNjBiZGE1MTY5ZjdkZmRhZjQyMTQ2Mzc0ZjllOWM5OTMyMDJmYTFiZSJ9fX0=
+    slot: 49
+    display_name: '&#5F9EA0&l返回主城'
+    lore:
+    - ''
+    - '&#5F9EA0&l⛃ 信息'
+    - '     &#FFE4E1结束一段时间的旅途，你是否需要休息了呢? '
+    - '     &#FFE4E1你可以在主城做很多事情，并且不会消耗饱食度呢!'
+    - ''
+    - '&8 » &#FFFACD右键以传送'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    - '[player]cmi spawn'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    - '[player]cmi spawn'
+  '0':
+    material: basehead-eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM0OTFkYmZhMzcyZGY3OTk5MjYyY2JmYTg5MTY1MThhYjNlMzU5NWJkNmJkZGY5ZjdkMTk1ZGYzZjc4ODViZCJ9fX0=
+    slot: 45
+    display_name: '&#ff3300返回'
+    lore:
+    - '&#B0C4DE点击以返回到 &#FFFACD主菜单&#B0C4DE.'
+    right_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    - '[openguimenu] mainmenu'
+    left_click_commands:
+    - '[sound] ENTITY_PLAYER_ATTACK_CRIT'
+    - '[openguimenu] mainmenu'

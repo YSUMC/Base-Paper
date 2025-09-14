@@ -1,0 +1,26 @@
+Query:
+  votes:
+    host: localhost
+    port: '3306'
+    database: root
+    username: root
+    password: password
+    query: SELECT TotalVotes FROM ProVotes WHERE UUID = '{uuid}'
+  points:
+    host: localhost
+    port: '3306'
+    database: root
+    username: root
+    password: password
+    query: SELECT points FROM playerpoints WHERE playername = '{_uuid_}'
+  money:
+    query: SELECT balance FROM money WHERE player = '{player}'
+Settings:
+  Default:
+    host: localhost
+    port: '3306'
+    database: root
+    username: port
+    password: password
+  Debug: false
+  UpdateDelay: 60

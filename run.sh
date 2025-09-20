@@ -38,10 +38,10 @@ fi
 
 echo -e "${GREEN}代码库同步完成${NC}"
 
-# 检查velocity.jar是否存在
+# 检查paper.jar是否存在
 if [ ! -f "server.jar" ]; then
-    echo -e "${RED}错误：找不到 velocity.jar 文件${NC}"
-    echo "请确保 velocity.jar 文件在当前目录中"
+    echo -e "${RED}错误：找不到 paper.jar 文件${NC}"
+    echo "请确保 paper.jar 文件在当前目录中"
     exit 1
 fi
 
@@ -56,14 +56,14 @@ fi
 echo -e "${BLUE}Java版本信息：${NC}"
 java -version
 
-# 启动Velocity代理服务器
+# 启动paper代理服务器
 echo -e "${GREEN}正在启动lobby服务器...${NC}"
 echo -e "${YELLOW}服务器端口：20000${NC}"
 echo -e "${YELLOW}按 Ctrl+C 停止服务器${NC}"
 echo "----------------------------------------"
 
 # 启动服务器并捕获退出码
-java -Xms1G -Xmx2G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar server.jar
+java -Xms1G -Xmx2G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil server.jar
 exit_code=$?
 
 echo "----------------------------------------"

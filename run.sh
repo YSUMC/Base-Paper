@@ -39,7 +39,7 @@ fi
 echo -e "${GREEN}代码库同步完成${NC}"
 
 # 检查velocity.jar是否存在
-if [ ! -f "velocity.jar" ]; then
+if [ ! -f "server.jar" ]; then
     echo -e "${RED}错误：找不到 velocity.jar 文件${NC}"
     echo "请确保 velocity.jar 文件在当前目录中"
     exit 1

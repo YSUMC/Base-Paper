@@ -19,14 +19,14 @@ if [ $? -ne 0 ]; then
 fi
 
 # 尝试pull，如果有分支分歧则自动强制使用远程版本
-git pull origin main
+git pull origin 100mins
 
 if [ $? -ne 0 ]; then
     echo -e "${YELLOW}检测到分支分歧，自动强制使用远程版本...${NC}"
     echo -e "${YELLOW}警告：这将丢弃所有本地更改！${NC}"
     
     # 强制重置到远程版本
-    git reset --hard origin/main
+    git reset --hard origin/100mins
     
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}已强制重置到远程版本${NC}"
@@ -58,7 +58,7 @@ java -version
 
 # 启动paper代理服务器
 echo -e "${GREEN}正在启动lobby服务器...${NC}"
-echo -e "${YELLOW}服务器端口：20000${NC}"
+echo -e "${YELLOW}服务器端口：20006${NC}"
 echo -e "${YELLOW}按 Ctrl+C 停止服务器${NC}"
 echo "----------------------------------------"
 

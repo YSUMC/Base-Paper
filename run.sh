@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}正在同步代码库...${NC}"
 
 # 首先获取远程更新
-git fetch origin main
+git fetch origin 100mins
 
 if [ $? -ne 0 ]; then
     echo -e "${RED}获取远程更新失败，请检查网络连接或仓库状态${NC}"

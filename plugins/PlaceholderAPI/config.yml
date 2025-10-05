@@ -39,7 +39,7 @@ expansions:
       high: '&a'
       low: '&c'
       medium: '&e'
-    server_name: lobby
+    server_name: 100mins
     time:
       locale: zh-CN
       zone: Asia/Shanghai

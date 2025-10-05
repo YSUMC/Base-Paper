@@ -12,5 +12,8 @@ function servername() {
     if ("%server_name%" == "funnyrun") {
         return "%ac_gradient_FF4500,FFFF00_0.1_&l鸟大跑跑乐%"
     }
+    if ("%server_name%" == "100mins") {
+        return "%ac_gradient_ff0000,fff5ee_0.1_&l100分钟建筑赛%"
+    }
 }
 servername()

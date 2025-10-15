@@ -11,7 +11,7 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}正在同步代码库...${NC}"
 
 # 首先获取远程更新
-git fetch origin main
+git fetch origin survival
 
 if [ $? -ne 0 ]; then
     echo -e "${RED}获取远程更新失败，请检查网络连接或仓库状态${NC}"
@@ -19,14 +19,14 @@ if [ $? -ne 0 ]; then
 fi
 
 # 尝试pull，如果有分支分歧则自动强制使用远程版本
-git pull origin main
+git pull origin survival
 
 if [ $? -ne 0 ]; then
     echo -e "${YELLOW}检测到分支分歧，自动强制使用远程版本...${NC}"
     echo -e "${YELLOW}警告：这将丢弃所有本地更改！${NC}"
     
     # 强制重置到远程版本
-    git reset --hard origin/main
+    git reset --hard origin/survival
     
     if [ $? -eq 0 ]; then
         echo -e "${GREEN}已强制重置到远程版本${NC}"
@@ -63,7 +63,7 @@ echo -e "${YELLOW}按 Ctrl+C 停止服务器${NC}"
 echo "----------------------------------------"
 
 # 启动服务器并捕获退出码
-java -Xms1G -Xmx2G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil server.jar
+java -Xms6G -Xmx10G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil server.jar
 exit_code=$?
 
 echo "----------------------------------------"

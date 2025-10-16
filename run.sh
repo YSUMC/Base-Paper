@@ -6,7 +6,7 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
-
+git config --global --add safe.directory '/data/02YSU/主服/[20001]survival'
 # 同步代码库
 echo -e "${BLUE}正在同步代码库...${NC}"
 

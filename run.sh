@@ -58,12 +58,12 @@ java -version
 
 # 启动paper代理服务器
 echo -e "${GREEN}正在启动lobby服务器...${NC}"
-echo -e "${YELLOW}服务器端口：20000${NC}"
+echo -e "${YELLOW}服务器端口：20001${NC}"
 echo -e "${YELLOW}按 Ctrl+C 停止服务器${NC}"
 echo "----------------------------------------"
 
 # 启动服务器并捕获退出码
-java -Xms6G -Xmx10G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil server.jar
+java -Xms10G -Xmx10G -XX:+UseG1GC -XX:G1HeapRegionSize=4M -XX:+UnlockExperimentalVMOptions -XX:+ParallelRefProcEnabled -XX:+AlwaysPreTouch -jar -javaagent:authlib-injector.jar=https://skin.mualliance.ltd/api/union/yggdrasil server.jar
 exit_code=$?
 
 echo "----------------------------------------"

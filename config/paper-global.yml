@@ -84,7 +84,7 @@ misc:
     chat-executor-max-size: -1
   client-interaction-leniency-distance: default
   compression-level: default
-  enable-nether: false
+  enable-nether: true
   load-permissions-yml-before-plugins: true
   max-joins-per-tick: 5
   prevent-negative-villager-demand: false
@@ -115,7 +115,7 @@ proxies:
   velocity:
     enabled: true
     online-mode: true
-    secret: NoTlRfJZYc7A
+    secret: 'NoTlRfJZYc7A'
 scoreboards:
   save-empty-scoreboard-teams: true
   track-plugin-scoreboards: false

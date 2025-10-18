@@ -129,13 +129,13 @@ spark:
   enable-immediately: false
   enabled: true
 unsupported-settings:
-  allow-headless-pistons: false
-  allow-permanent-block-break-exploits: false
-  allow-piston-duplication: false
-  allow-unsafe-end-portal-teleportation: false
+  allow-headless-pistons: true
+  allow-permanent-block-break-exploits: true
+  allow-piston-duplication: true
+  allow-unsafe-end-portal-teleportation: true
   compression-format: ZLIB
   perform-username-validation: true
-  skip-tripwire-hook-placement-validation: false
+  skip-tripwire-hook-placement-validation: true
   skip-vanilla-damage-tick-when-shield-blocked: false
   update-equipment-on-player-actions: true
 watchdog:
